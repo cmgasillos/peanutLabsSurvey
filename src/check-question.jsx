@@ -36,7 +36,7 @@ module.exports = React.createClass({
   render: function(){
     return (
       <div>
-        <span>{this.props.num + ". "}</span>{this.props.question}
+        <span>{this.props.num + 1 + ". "}</span>{this.props.question}
         <form>
           {this._displayChoices()}
         </form>

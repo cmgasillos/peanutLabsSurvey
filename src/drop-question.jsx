@@ -31,7 +31,7 @@ module.exports = React.createClass({
     //it is good practice to pass in the index as this.props.key to the child when dealing with arrays.
     return (
       <div>
-        <span>{this.props.num + ". "}</span>{this.props.question}
+        <span>{this.props.num + 1 + ". "}</span>{this.props.question}
         <div className="dropdown main">
           <Button 
             handleClick={this._handleClick} 

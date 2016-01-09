@@ -29,7 +29,7 @@ module.exports = React.createClass({
   render: function(){
     return (
       <div>
-        <span>{this.props.num + ". "}</span>{this.props.question}
+        <span>{this.props.num + 1 + ". "}</span>{this.props.question}
         <br />
         <input size="50" type="text" value={this.state.value} onChange={this._handleAnswerChange} />
         <button className="btn btn-default" type="button" onClick={this._handleSubmitAnswer}>Submit Text Answer</button>
